@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* pag principal */
+body {
+    /*background-image: linear-gradient(0deg, #00cccc 10%, #2AF598 100%);*/
+    background-color: #2AF598;
+	background-repeat: repeat;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+#menu {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#menu .menu {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5rem;
+    list-style: none;
+}
+
+#menu nav.menu li{
+   margin: 0;
+   padding: 0;
+   margin-right: 4rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+
+#menu nav.menu li a {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/*sub pastas*/
+#menu ul {
+    list-style: none;
+    width: 18rem;
+    padding-top: 1rem;
+    display: none;
+}
+
+#menu li:hover > ul {
+    display: block;
+}
+
+#menu ul a {
+    color: black;
+    text-decoration: none;
+    background: #2AF598;
+    border-radius: 25px;
+}
+
+#menu ul a:hover {
+    background: #32da8e;
+}
+
+#menu li {
+    margin-left: 3rem;
+}
+
+#menu li a {
+    color: black;
+    text-decoration: none;
+    background: #2AF598;
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+
+#menu li a:hover {
+    background: #32da8e;
+}
+
+#menu li:first-child {
+    width: 5rem;
+}
+
+#menu li:last-child {
+    width: 10rem;
+}
+
+.decantacao {
+	margin-top: 10px;
+	background-image: url(https://iili.io/5Jhzmb.md.png);
+	height: 246px;
+	width: 581px;
+	background-repeat: no-repeat;
+}
+
+.decantacaoo {
+	background-image: url(https://iili.io/5JgKgf.png);
+	height: 418px;
+	width: 333px;
+	background-repeat: no-repeat;
+}
+
+.cafe {
+	margin-top: 10px;
+	background-image: url(https://iili.io/5JPVZN.jpg);
+	height: 450px;
+	width: 300px;
+	background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.aspirador {
+	margin-top: 10px;
+	background-image: url(https://iili.io/5JPrnS.png);
+	height: 254px;
+	width: 198px;
+	background-repeat: no-repeat;
+}
+
+.garimpo {
+	margin-top: 20px;
+	background-image: url(https://iili.io/5JsWrX.md.png);
+	height: 248px;
+	width: 500px;
+	background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.grao {
+	margin-top: 20px;
+	background-image: url(https://iili.io/5dJjYQ.md.jpg);
+	height: 333px;
+	width: 499px;
+	background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.areia {
+	margin-top: 20px;
+	background-image: url(https://iili.io/5dJg6J.md.jpg);
+	height: 333px;
+	width: 500px;
+	background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.sangue {
+	margin-top: 20px;
+	background-image: url(https://iili.io/5dJiyN.md.jpg);
+	height: 333px;
+	width: 500px;
+	background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+
+.floco {
+	margin-top: 20px;
+	background-image: url(https://iili.io/5doaIf.jpg);
+	height: 156px;
+	width: 323px;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+}
+
+.fraciona {
+	margin-top: 20px;
+	background-image: url(https://iili.io/5dTMnj.jpg);
+	height: 230px;
+	width: 500px;
+	background-repeat: no-repeat;
+}
+
+.destila {
+	margin-top: 20px;
+	background-image: url(https://iili.io/5dunKQ.md.jpg);
+	height: 500px;
+	width: 800px;
+	background-repeat: no-repeat;
+}
+
+.croma {
+	margin-top: 20px;
+	background-image: url(https://iili.io/529yCu.png);
+	height: 241px;
+	width: 350px;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+}
+
+.croma2 {
+	margin-top: 20px;
+	background-image: url(https://iili.io/52HlGs.png);
+	height: 241px;
+	width: 350px;
+	background-repeat: no-repeat;
+}
+
+.croma3 {
+	margin-top: 20px;
+	background-image: url(https://iili.io/52HpAN.png);
+	height: 241px;
+	width: 350px;
+	background-repeat: no-repeat;
+}
+
+.croma4 {
+	margin-top: 20px;
+	background-image: url(https://iili.io/52JoD7.png);
+	height: 241px;
+	width: 350px;
+	background-repeat: no-repeat;
+}
+
+.liquefacao {
+	margin-top: 20px;
+	background-image: url(https://iili.io/52JUfs.png);
+	height: 360px;
+	width: 360px;
+	background-repeat: no-repeat;
+}
+
+.vaporiza {
+	margin-top: 20px;
+	background-image: url(https://iili.io/52dAXt.md.png);
+	height: 300px;
+	width: 750px;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+}
+
+.flota {
+	margin-top: 20px;
+	background-image: url(https://iili.io/52dmQt.md.png);
+	height: 300px;
+	width: 750px;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+}
+
+.fracionada {
+	margin-top: 20px;
+	background-image: url(https://iili.io/52Ca5u.md.png);
+	height: 330px;
+	width: 900px;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+}
+
+.solventes {
+	margin-top: 20px;
+	background-image: url(https://iili.io/52CGsV.png);
+	height: 220px;
+	width: 900px;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+}
+
+.cristalizacao {
+	margin-top: 20px;
+	background-image: url(https://iili.io/52CUqN.md.png);
+	height: 315px;
+	width: 900px;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+}
+
+.dissolucao {
+	margin-top: 20px;
+	background-image: url(https://iili.io/52CtLl.png);
+	height: 220px;
+	width: 900px;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+}
+
+.ventilacao {
+	margin-top: 20px;
+	background-image: url(https://iili.io/52nH7e.png);
+	height: 159px;
+	width: 210px;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+}
+
+#content {
+	min-height: 100%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    margin-top: 3rem;
+    padding: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.text h3{
+    width: 50rem;
+	margin-right: 2rem;
+    margin-top: 1.5rem;
+    font-weight: 400;
+}
+
+img{
+    width: 32rem;
+    padding-right: 2rem;
+}
+
+#footer {
+    background: white;
+    border-radius: 25px;
+    margin-top: 3rem;
+    padding: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+}
+
+h4 {
+    text-align: center;
+    font-weight: 500;
+    width: 590rem;
+}
+
+h5 img{
+   width: 2rem; 
+   background: #00cccc;
+   border-radius: 95px;
+   padding: 0.5rem;
+}
+
+h5 img:hover {
+    background: #06b3b3;
+}
+
+h5 {
+    float: right;
+    width: 20rem;
+}
+
+@media only screen and (max-width: 1400px) {
+    h1 {
+    visibility: hidden;
+    display: none;
+    }
+
+    #menu {
+    justify-content: center;
+    }
+
+    .text h3{
+        width: 40rem;
+    }
+
+    body{
+        background-size: 500%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .text h3{
+        width: 36rem;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    #menu ul {
+        width: 18rem;
+    }
+
+    #menu {
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 1226px) {
+    #menu nav.menu li{
+       margin-right: 3rem;
+    }
+
+    #menu ul {
+        width: 17rem;
+    }
+}
+
+@media only screen and (max-width: 1176px) {
+    #menu nav.menu li{
+        margin-right: 2rem;
+     }
+
+    #menu ul {
+        width: 16rem;
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    .text h3{
+        width: 33rem;
+    }
+}
+
+@media only screen and (max-width: 1190px) {
+    .text h3{
+        width: 30rem;
+    }
+}
+
+@media only screen and (max-width: 1218px) {
+    #menu {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 1114px) {
+    .text h3{
+        width: 58rem;
+        margin-bottom: 2rem;
+    }
+
+    #content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1114px) {
+    #menu nav.menu li{
+        margin-right: 1rem;
+     }
+
+    #menu ul {
+        width: 15rem;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .text h3{
+       padding-right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .text h3{
+       padding-right: 4rem;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .text h3{
+       padding-right: 6rem;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .text h3{
+       padding-right: 9rem;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    .text h3{
+       padding-right: 12rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .text h3{
+       padding-right: 15rem;
+    }
+}
+
+@media only screen and (max-width: 855px) {
+    .text h3{
+       padding-right: 18rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .text h3{
+       padding-right: 20rem;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .text h3{
+       padding-right: 23rem;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .text h3{
+       padding-right: 26rem;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .text h3{
+       padding-right: 29rem;
+    }
+}
+
+/* galaxy A10 */
+@media only screen and (max-width: 660px) {
+    #menu {
+    width: 56rem;
+    font-size: 30px;
+    padding: 1rem;
+    }
+
+    #content{
+    width: 56rem;
+    font-size: 37px;
+    }
+
+    .text h3{
+       padding-right: 5rem;
+    }
+
+    #footer{
+    width: 56rem;
+    font-size: 33px;
+    }
+
+    h5 img{
+        width: 4.5rem; 
+        padding: 0.9rem;
+     }
+
+    h5{
+         padding-right: 2rem;
+         padding-top: 2rem;
+     }
+
+    #menu {
+        padding: 10px;
+    }
+    
+    #menu nav.menu li{
+       margin-right: 4rem;
+       padding-top: 1rem;
+       padding-bottom: 1rem;
+    }
+    
+}
+
+/* iPad */
+@media only screen and (max-width: 768px) {
+    #menu {
+        width: 56rem;
+        font-size: 16px;
+        padding: 1rem;
+        }
+    
+        #content{
+        width: 56rem;
+        font-size: 25px;
+        }
+    
+        .text h3{
+           padding-right: 5rem;
+        }
+    
+        #footer{
+        width: 56rem;
+        font-size: 25px;
+        }
+}
+
+/* iPad Pro */
+@media only screen and (max-width: 1024px) {
+    #menu {
+        width: 56rem;
+        font-size: 16px;
+        padding: 1rem;
+        }
+    
+        #content{
+        width: 56rem;
+        font-size: 26px;
+        }
+    
+        .text h3{
+           padding-right: 5rem;
+        }
+    
+        #footer{
+        width: 56rem;
+        font-size: 25px;
+        }
+}
